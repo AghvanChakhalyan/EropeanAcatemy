@@ -1,0 +1,16 @@
+<p>
+  staff works!
+</p>
+
+<div class="card-group d-lg-inline-flex"style="width: 18rem;" *ngFor="let person of teachers">
+  <div class="card">
+    <img class="card-img-top" style="height: 15rem" src="../../../assets/images/staff/{{person.img}}.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{person.name}}</h5>
+      <h5 class="card-title">{{person.surname}}</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+        This content is a little bit longer.</p>
+    </div>
+
+  </div>
+</div>
